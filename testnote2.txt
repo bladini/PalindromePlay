@@ -1,0 +1,8 @@
+﻿git update-index --assume-unchanged
+
+asdf
+
+
+mjau mjau
+
+githubändring2

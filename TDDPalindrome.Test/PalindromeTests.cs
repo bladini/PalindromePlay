@@ -77,6 +77,7 @@ namespace TDDPalindrome.Test
         #endregion Negative Cases
 
 
+        /*
         #region Impossible Cases
         [TestMethod]
         public void missionImpossible()
@@ -88,5 +89,6 @@ namespace TDDPalindrome.Test
 
         }
         #endregion Impossible Cases
+         */
     }
 }

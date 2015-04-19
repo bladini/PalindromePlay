@@ -48,15 +48,32 @@ namespace TDDPalindrome.Test
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentNullException))]
+        //[ExpectedException(typeof(ArgumentNullException))]
         public void IsPalindromeThrowsArgumentNullException()
         {
             //Arrange
             string value = null;
 
             //Act
-            bool actual = _palindromeFinder.IsPalindrome(value);
+            
 
+
+            try
+            {
+                bool actual = _palindromeFinder.IsPalindrome(value);
+
+                // If no exception is thrown, then it fails.
+                Assert.Fail("Expected ArgumentNullException");
+            }
+            catch (ArgumentNullException ex)
+            {
+                //This is what should happen. No fail.
+            }
+            catch
+            {
+                // If another exception is thrown, then it fails.
+                Assert.Fail();
+            }
             
         }
 

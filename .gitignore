@@ -11,8 +11,8 @@
 *.userprefs
 
 # Build results
-# Commenting out bin folder in order to access dll test file
-# [Dd]ebug/
+# Not Commenting out bin folder in order to access dll test file
+[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -20,8 +20,8 @@ x64/
 x86/
 build/
 bld/
-# Commenting out bin folder in order to access dll test file
-# [Bb]in/
+# Not Commenting out bin folder in order to access dll test file
+[Bb]in/
 [Oo]bj/
 
 # Visual Studo 2015 cache/options directory
